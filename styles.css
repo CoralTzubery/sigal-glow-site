@@ -60,6 +60,7 @@ h2 {
 .phone a {
     color: black;
     text-decoration: underline;
+    font-weight: bold;
     font-size: 18px;
 }
 
@@ -71,9 +72,6 @@ h2 {
     padding-top: 60px;
 }
 
-.odd-section {
-    background-color: #D9D6DA;
-}
 
 .odd-container {
     display: flex;
