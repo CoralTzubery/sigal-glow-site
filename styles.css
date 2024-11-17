@@ -1,29 +1,120 @@
-body {
-    text-align: center;
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 h2 {
-    font-family: sans-serif;
+    font-size: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-ul {
-    width: 30ch;
-    margin: auto;
-    text-align: left;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    position: relative;
 }
 
-p {
-    font-family: system-ui;
+.menu {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    text-align: center;
 }
 
-.cool-paragraph {
-    font-family: David;
+.navbar a {
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 18px;
 }
 
-.bg-deeppink {
-    background: deeppink;
+.navbar img {
+    position: absolute;
+    right: 20px;
+    width: 20%;
+    height: auto;
 }
 
-#second-header {
-    font-size: 1.2rem;
+.phone {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    position: absolute;
+    left: 20px;
+    z-index: 1;
+}
+
+.phone a {
+    color: black;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.phone i {
+    margin-left: 10px;
+}
+
+.content {
+    padding-top: 60px;
+}
+
+.odd-section {
+    background-color: #D9D6DA;
+}
+
+.odd-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.odd-container img {
+    width: 50%;
+    height: auto;
+    margin-left: 15px;
+    object-fit: cover;
+}
+
+.odd-container .text {
+    flex: 1;
+    margin-right: 15px;
+    padding-top: 10px;
+}
+
+.even-container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.even-container img {
+    width: 50%;
+    height: auto;
+    margin-left: 0;
+    object-fit: cover;
+}
+
+.even-container .text {
+    flex: 1;
+    padding-top: 10px;
 }
