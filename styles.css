@@ -116,3 +116,40 @@ h2 {
     flex: 1;
     padding-top: 10px;
 }
+
+body .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.links > section{
+    background-color: hsl(45, 33%, 98%);
+    color: hsla(0, 0%, 15%, 0.6);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.links h2{
+    color: black
+}
+
+.links p {
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 20px;
+    border-radius: 10px;
+    text-align: right;
+}
+
+.links img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
