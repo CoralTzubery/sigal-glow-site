@@ -1,0 +1,153 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 60px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 35px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  text-align: center;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  margin: 20px;
+  font-size: 18px;
+}
+
+.navbar img {
+  position: absolute;
+  right: 20px;
+  width: 20%;
+  height: auto;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  position: absolute;
+  left: 20px;
+  z-index: 1;
+}
+
+.phone a {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.phone i {
+  margin-left: 10px;
+}
+
+.content {
+  padding-top: 60px;
+}
+
+.odd-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.odd-container img {
+  width: 50%;
+  height: auto;
+  margin-left: 15px;
+  object-fit: cover;
+}
+
+.odd-container .text {
+  flex: 1;
+  margin-right: 15px;
+  padding-top: 10px;
+}
+
+.even-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.even-container img {
+  width: 50%;
+  height: auto;
+  margin-left: 0;
+  object-fit: cover;
+}
+
+.even-container .text {
+  flex: 1;
+  padding-top: 10px;
+}
+
+body .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.links > section {
+  background-color: #fcfbf8;
+  color: rgba(38, 38, 38, 0.6);
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.links h2 {
+  color: black;
+}
+
+.links p {
+  max-width: 600px;
+  padding: 20px;
+  margin: 0 20px;
+  border-radius: 10px;
+  text-align: right;
+}
+
+.links img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
