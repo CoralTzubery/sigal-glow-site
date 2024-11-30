@@ -117,39 +117,41 @@ h2 {
     padding-top: 10px;
 }
 
-body .links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-
-}
-
-.links > section{
-    background-color: hsl(45, 33%, 98%);
-    color: hsla(0, 0%, 15%, 0.6);
-    text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 600px;
-    width: 100%;
-}
-
-.links h2{
-    color: black
-}
-
-.links p {
-    max-width: 600px;
-    padding: 20px;
-    margin: 0 20px;
-    border-radius: 10px;
-    text-align: right;
-}
-
-.links img{
+.image-banner img {
     width: 100%;
     height: auto;
     display: block;
+}
+
+
+.box {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+
+
+    h1 {
+        margin: 20px 0 10px;
+        font-size: 30px;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+    }
+
+    .text {
+        width: 650px;
+        padding: 20px;
+        text-align: right;
+    }
+
+    p {
+        margin: 0;
+        font-size: 18px;
+        line-height: 1.2;
+        color: hsl(0, 0%, 50%);
+        text-align: right;
+        margin-bottom: 16px;
+        line-height: 1.4;
+    }
 }
